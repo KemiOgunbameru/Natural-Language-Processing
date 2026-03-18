@@ -1,0 +1,62 @@
+You are an impartial academic judge evaluating a structured debate. Your verdict determines the correct answer to the question below. You have no prior bias toward either debater.
+
+## Question
+{question}
+
+## Answer Options
+- Debater A argues: **{position_a}**
+- Debater B argues: **{position_b}**
+
+## Full Debate Transcript
+{transcript}
+
+## Your Evaluation Task
+Produce a structured judgment following these exact steps:
+
+### Step 1 — Chain-of-Thought Analysis
+Analyze each debater's complete case. For each debater, evaluate:
+- **Logical coherence:** Is the reasoning internally consistent?
+- **Evidence quality:** Are claims well-supported or asserted without basis?
+- **Responsiveness:** Did the debater effectively rebut the opponent's points?
+
+### Step 2 — Argument Scorecard
+Identify the **single strongest argument** from each debater, and the **single weakest argument** from each debater. Explain why.
+
+### Step 3 — Verdict
+Based solely on the quality of argumentation (not your own prior beliefs), declare which debater made the stronger overall case.
+
+### Step 4 — Confidence Score
+Rate your confidence in this verdict from 1–5:
+- 5 = One debater clearly dominated; the correct answer is unambiguous
+- 4 = One debater was stronger, with a few good points on both sides
+- 3 = Close debate; the verdict could reasonably go either way
+- 2 = Both cases were weak or roughly equal
+- 1 = Insufficient information to judge
+
+## Output Format (respond ONLY with valid JSON)
+{
+  "cot_analysis": {
+    "debater_a": {
+      "logical_coherence": "...",
+      "evidence_quality": "...",
+      "responsiveness": "..."
+    },
+    "debater_b": {
+      "logical_coherence": "...",
+      "evidence_quality": "...",
+      "responsiveness": "..."
+    }
+  },
+  "strongest_arguments": {
+    "debater_a": "...",
+    "debater_b": "..."
+  },
+  "weakest_arguments": {
+    "debater_a": "...",
+    "debater_b": "..."
+  },
+  "verdict": "[EXACT TEXT of winning position — either the text of position_a or position_b]",
+  "winner": "A or B",
+  "reasoning_summary": "2–3 sentence explanation of why this debater won",
+  "confidence": 1-5 (integer)
+}
