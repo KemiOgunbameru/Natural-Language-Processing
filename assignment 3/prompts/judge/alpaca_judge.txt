@@ -1,0 +1,44 @@
+You are an expert judge evaluating the quality of two AI assistant responses to the same instruction. Your task is to determine which response is better and provide detailed scores.
+
+## Instruction
+{instruction}
+
+## Input (if any)
+{input}
+
+## Response A ({checkpoint_a})
+{response_a}
+
+## Response B ({checkpoint_b})
+{response_b}
+
+## Evaluation Criteria
+Score each response on a scale of 1–5 for each dimension:
+
+1. **instruction_following** — Does the response directly address what was asked?
+2. **correctness** — Is the information accurate and factually sound?
+3. **clarity** — Is the response clear, well-organised, and easy to understand?
+4. **completeness** — Does it fully address all aspects of the instruction?
+5. **hallucination_risk** — Is the response grounded? (5 = no hallucination, 1 = fabricated content)
+
+## Output Format
+Respond ONLY with a valid JSON object. No preamble, no explanation outside the JSON.
+
+{{
+  "response_a_scores": {{
+    "instruction_following": <1-5>,
+    "correctness": <1-5>,
+    "clarity": <1-5>,
+    "completeness": <1-5>,
+    "hallucination_risk": <1-5>
+  }},
+  "response_b_scores": {{
+    "instruction_following": <1-5>,
+    "correctness": <1-5>,
+    "clarity": <1-5>,
+    "completeness": <1-5>,
+    "hallucination_risk": <1-5>
+  }},
+  "winner": "<A or B or TIE>",
+  "justification": "<2-3 sentence explanation of your decision, noting specific strengths and weaknesses>"
+}}

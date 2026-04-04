@@ -1,0 +1,10 @@
+{instruction}
+
+Context: {input}
+
+Requirements:
+- Every field in the schema must be present in your output.
+- Use realistic, contextually appropriate values — do not use placeholder text like "string" or "value".
+- Ensure correct JSON types (strings in quotes, numbers without quotes, booleans as true/false, arrays as [...]).
+
+Respond ONLY with a single valid JSON object. No explanation, no markdown fences, no preamble.

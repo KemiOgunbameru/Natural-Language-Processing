@@ -1,0 +1,39 @@
+You are an expert judge evaluating the quality of an AI assistant's structured JSON output. Assess the response carefully on all dimensions.
+
+## Task Type
+{task_type}
+
+## Instruction
+{instruction}
+
+## Input (if any)
+{input}
+
+## Model Response
+{response}
+
+## Evaluation Criteria
+Score the response 1–5 on each dimension:
+
+1. **instruction_following** — Did the model follow the full instruction, including output format requirements?
+2. **correctness** — Are the values and content semantically correct given the input?
+3. **clarity** — Is the output well-structured and readable?
+4. **completeness** — Does the output include all required fields/elements without omission?
+5. **structured_output_validity** — Is the output syntactically valid JSON that would parse without error? (5 = perfect valid JSON, 1 = completely broken)
+6. **hallucination_risk** — Are all values grounded in the input? (5 = fully grounded, 1 = invented values)
+
+## Output Format
+Respond ONLY with a valid JSON object. No preamble, no explanation outside the JSON.
+
+{{
+  "scores": {{
+    "instruction_following": <1-5>,
+    "correctness": <1-5>,
+    "clarity": <1-5>,
+    "completeness": <1-5>,
+    "structured_output_validity": <1-5>,
+    "hallucination_risk": <1-5>
+  }},
+  "verdict": "<PASS or FAIL — PASS if the JSON is valid and content is correct>",
+  "justification": "<2-3 sentences describing key strengths and any formatting or content errors found>"
+}}
