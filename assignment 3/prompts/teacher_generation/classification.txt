@@ -1,0 +1,14 @@
+{instruction}
+
+Text to classify:
+{input}
+
+Rules:
+- You MUST choose exactly one label from the allowed set. Do not invent new labels.
+- Your confidence should be a float between 0.0 and 1.0.
+- Keep your reasoning concise (1-2 sentences).
+
+Respond ONLY with a valid JSON object in this exact format:
+{{"label": "<chosen_label>", "confidence": <float>, "reasoning": "<brief explanation>"}}
+
+No markdown, no preamble, no additional text.

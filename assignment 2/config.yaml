@@ -1,0 +1,36 @@
+model:
+  debater: "meta-llama/Llama-3.1-8B-Instruct"
+  judge: "meta-llama/Llama-3.1-8B-Instruct"
+  baseline: "meta-llama/Llama-3.1-8B-Instruct"
+
+api:
+  base_url: "http://149.165.173.247:8888/v1"
+  key: "utsa-jABQlGLaTrae2bqMHyAvPxTvE9KTP0DEWYIXhvtgkDkVcGjp44rN6G56x1aGiyem"
+
+generation:
+  debater_temperature: 0.7
+  judge_temperature: 0.2
+  baseline_temperature: 0.7
+  debater_max_tokens: 800
+  judge_max_tokens: 1200
+  baseline_max_tokens: 600
+
+debate:
+  num_rounds: 3
+  early_stop_consensus: true
+  consensus_window: 2
+  domain: "commonsense_qa"
+
+evaluation:
+  num_questions: 100
+  self_consistency_samples: 6
+
+logging:
+  log_dir: "logs"
+  save_transcripts: true
+  transcript_format: "json"
+
+paths:
+  prompts_dir: "prompts"
+  data_dir: "data"
+  results_dir: "results"

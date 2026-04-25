@@ -1,0 +1,13 @@
+{instruction}
+
+User request: {input}
+
+Rules:
+- Map every detail in the user request to the appropriate parameter.
+- Use correct JSON types for each field (strings, numbers, booleans, arrays).
+- If a required parameter cannot be inferred from the request, use a sensible default or null.
+- Do not include parameters that are not in the function signature.
+- Format dates as ISO 8601 (e.g., "2024-06-10") and times as "HH:MM" unless a different format is implied.
+
+Respond ONLY with a single valid JSON object representing the function call arguments.
+No function name wrapper, no explanation, no markdown fences — just the arguments object.

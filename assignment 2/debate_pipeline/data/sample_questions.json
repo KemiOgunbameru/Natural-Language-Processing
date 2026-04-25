@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sq_001",
+    "question": "Did the Roman Empire exist at the same time as the Mayan civilization?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "The Roman Empire (~27 BC – 476 AD) and the Mayan civilization (~2000 BC – 1500s AD) are two ancient civilizations.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_002",
+    "question": "Could Isaac Newton have met Benjamin Franklin?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "Isaac Newton lived from 1643 to 1727. Benjamin Franklin was born in 1706.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_003",
+    "question": "Would a kilogram of feathers weigh more than a kilogram of gold?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "A kilogram is a unit of mass equal to 1000 grams regardless of substance.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_004",
+    "question": "Is the Great Wall of China visible from space with the naked eye?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "The Great Wall of China is approximately 15-30 feet wide. Astronauts and NASA have addressed this popular claim.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_005",
+    "question": "Did humans and dinosaurs coexist?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "Non-avian dinosaurs went extinct approximately 66 million years ago. Homo sapiens evolved approximately 300,000 years ago.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_006",
+    "question": "Could a person walk from Los Angeles to New York City in under a year?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "The distance from Los Angeles to New York City is approximately 2,800 miles. An average walking speed is 3 mph.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_007",
+    "question": "Has any woman won the Nobel Prize in Physics?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "The Nobel Prize in Physics has been awarded since 1901. Marie Curie won in 1903.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_008",
+    "question": "Is the Pacific Ocean larger than all of Earth's land combined?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "The Pacific Ocean covers approximately 165 million square kilometers. Total land area on Earth is approximately 149 million square kilometers.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_009",
+    "question": "Could you theoretically boil water on Mount Everest using only body heat?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "Normal human body temperature is 37°C. At the summit of Mount Everest (8,849m), water boils at approximately 70°C due to reduced atmospheric pressure.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_010",
+    "question": "Did Shakespeare write during the same century as Galileo?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "William Shakespeare lived from 1564 to 1616. Galileo Galilei lived from 1564 to 1642.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_011",
+    "question": "Is Antarctica considered a desert?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "A desert is defined as an area that receives very little precipitation. Antarctica receives less than 200mm of precipitation per year.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_012",
+    "question": "Can humans survive on only water for more than a month?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "The human body requires calories, vitamins, and minerals to survive. Without food, the average human can survive 1-3 weeks depending on body fat.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_013",
+    "question": "Is gold a better conductor of electricity than copper?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "Electrical conductivity of copper is 5.96×10^7 S/m. Gold is 4.10×10^7 S/m. Silver is the best conductor at 6.30×10^7 S/m.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_014",
+    "question": "Was the Berlin Wall still standing when the first iPhone was released?",
+    "answer": "no",
+    "position_a": "no",
+    "position_b": "yes",
+    "context": "The Berlin Wall fell on November 9, 1989. The first iPhone was released on June 29, 2007.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_015",
+    "question": "Does sound travel faster in water than in air?",
+    "answer": "yes",
+    "position_a": "yes",
+    "position_b": "no",
+    "context": "Speed of sound in air is ~343 m/s at 20°C. Speed of sound in water is ~1,480 m/s.",
+    "domain": "commonsense_qa"
+  },
+  {
+    "id": "sq_016",
+    "question": "Vitamin C supplementation prevents the common cold in the general population.",
+    "answer": "refuted",
+    "position_a": "supported",
+    "position_b": "refuted",
+    "context": "Multiple Cochrane reviews have analyzed randomized controlled trials of vitamin C supplementation and cold prevention. Meta-analyses show no statistically significant reduction in cold incidence in the general population, though a slight reduction in duration (~8%) is observed.",
+    "domain": "fact_verification"
+  },
+  {
+    "id": "sq_017",
+    "question": "Regular aerobic exercise reduces the risk of developing type 2 diabetes.",
+    "answer": "supported",
+    "position_a": "supported",
+    "position_b": "refuted",
+    "context": "Multiple large prospective studies including the Nurses' Health Study and Health Professionals Follow-up Study have examined the relationship between physical activity and type 2 diabetes incidence.",
+    "domain": "fact_verification"
+  },
+  {
+    "id": "sq_018",
+    "question": "Coffee consumption increases the risk of cardiovascular disease.",
+    "answer": "refuted",
+    "position_a": "refuted",
+    "position_b": "supported",
+    "context": "Recent meta-analyses of prospective cohort studies examining habitual coffee consumption (3-5 cups/day) and cardiovascular outcomes in healthy adults have been published in major cardiology journals.",
+    "domain": "fact_verification"
+  },
+  {
+    "id": "sq_019",
+    "question": "Social media use is associated with increased rates of depression in adolescents.",
+    "answer": "supported",
+    "position_a": "supported",
+    "position_b": "refuted",
+    "context": "Multiple longitudinal studies and systematic reviews have examined the association between social media use and mental health outcomes in teenagers aged 13-18.",
+    "domain": "fact_verification"
+  },
+  {
+    "id": "sq_020",
+    "question": "Antibiotics are effective against viral infections such as the common cold.",
+    "answer": "refuted",
+    "position_a": "refuted",
+    "position_b": "supported",
+    "context": "Antibiotics are medications designed to kill or inhibit bacteria. The common cold is caused by viruses, primarily rhinoviruses.",
+    "domain": "fact_verification"
+  }
+]

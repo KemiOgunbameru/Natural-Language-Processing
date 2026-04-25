@@ -1,0 +1,15 @@
+{instruction}
+
+Malformed JSON to fix:
+{input}
+
+Repair checklist:
+- Replace single quotes with double quotes around all strings and keys.
+- Remove trailing commas from objects and arrays.
+- Add any missing closing braces or brackets.
+- Replace Python/JavaScript literals (True→true, False→false, None→null, NaN→null, Infinity→null, undefined→null).
+- Ensure all object keys are quoted strings.
+- Escape any unescaped double quotes inside string values.
+- Do NOT change the data values — only fix the formatting.
+
+Respond ONLY with the corrected, valid JSON. No explanation, no markdown fences.

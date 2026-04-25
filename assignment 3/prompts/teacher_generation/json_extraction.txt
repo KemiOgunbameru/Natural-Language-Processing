@@ -1,0 +1,6 @@
+{instruction}
+
+Text to extract from:
+{input}
+
+Remember: respond ONLY with valid JSON. Do not include any explanation, preamble, or markdown code fences.
