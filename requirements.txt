@@ -1,0 +1,5 @@
+datasets
+chromadb
+sentence-transformers
+openai
+huggingface_hub
